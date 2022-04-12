@@ -73,9 +73,9 @@ def PredictingGame(team1, team2):
         print(f"The predicted amount of points {team2_name} scored is {final_point1}")
         
         if(final_point > final_point1):
-            print("Brooklyn Nets Wins\n")
+            print(f"{team1_name} wins\n")
         elif(final_point1 > final_point):
-            print("GoldenState Warriors win\n")
+            print(f"{team2_name} wins\n")
         else:
             print("Tie\n")
 
